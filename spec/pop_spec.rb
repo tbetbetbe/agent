@@ -56,7 +56,7 @@ describe Agent::Pop do
 
       s, _ = @ack.receive
 
-      expect(Time.now - s).to be_within(0.01).of(0.2)
+      expect(Time.now - s).to be_within(0.05).of(0.2)
     end
   end
 
