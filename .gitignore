@@ -3,3 +3,6 @@ pkg/*
 .bundle
 tmp/*
 .rbx
+.ruby-version
+.DS_Store
+coverage/*
